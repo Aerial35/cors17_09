@@ -10,6 +10,7 @@ var gUserName = '123';                  // 配置用户名
 var gPassWord = '123';                  // 配置密码
 var gMaxHour = 1 * 60 * 1000;           // 配置session过期时间,以毫秒为单位
 
+
 app.engine('html', ejs.__express);      // 设置html引擎，ejs模版
 app.set('view engine', 'html');         // 设置视图引擎
 app.set('views', './view');             // 设置视图目录
